@@ -64,3 +64,8 @@ if art_style and description:
             prompt=completion,
         )
         st.image(response.read(), caption=completion)
+
+
+"---"
+st.caption("Made with 🧡 in Berkeley with [Streamlit](https://streamlit.io) and [Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/).")
+st.caption("**None of your stuff** is saved or stored. It's just for the jokes.")
